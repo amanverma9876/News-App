@@ -1,0 +1,42 @@
+
+.article-card {
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .article-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .article-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .article-card h2 {
+    font-size: 1.5rem;
+    margin: 16px 0 8px;
+    color: #007bff;
+  }
+  
+  .article-card p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+  
+  .article-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .article-card a:hover {
+    color: #0056b3;
+  }
+  
